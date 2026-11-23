@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6000586751564437356
+--- !u!1 &507167887991229683
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,32 +8,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1363089563551682572}
+  - component: {fileID: 7085123355042873947}
   - component: {fileID: 1279993452673991840}
-  - component: {fileID: 3642708377020482453}
-  - component: {fileID: 4631216154935836081}
-  - component: {fileID: 1933295463442096351}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1363089563551682572
+--- !u!4 &7085123355042873947
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6000586751564437356}
+  m_GameObject: {fileID: 507167887991229683}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 867001000000000002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1279993452673991840
 SpriteRenderer:
@@ -42,7 +39,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6000586751564437356}
+  m_GameObject: {fileID: 507167887991229683}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -92,8 +89,100 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &867001000000000001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867001000000000002}
+  - component: {fileID: 867001000000000003}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &867001000000000002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867001000000000001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7085123355042873947}
+  m_Father: {fileID: 1363089563551682572}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &867001000000000003
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867001000000000001}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 612d0b55b30e445f8add88c9c8788eb2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &6000586751564437356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363089563551682572}
+  - component: {fileID: 3642708377020482453}
+  - component: {fileID: 4631216154935836081}
+  - component: {fileID: 1933295463442096351}
+  - component: {fileID: 2068145168209047321}
+  - component: {fileID: 867001000000000004}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1363089563551682572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6000586751564437356}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 867001000000000002}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3642708377020482453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 0
+  GlobalObjectIdHash: 3826472612
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -143,7 +232,7 @@ MonoBehaviour:
   RotationMaxInterpolationTime: 0.1
   ScaleLerpSmoothing: 1
   ScaleMaxInterpolationTime: 0.1
-  AuthorityMode: 1
+  AuthorityMode: 0
   TickSyncChildren: 0
   UseUnreliableDeltas: 0
   SyncPositionX: 1
@@ -178,6 +267,861 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   ShowTopMostFoldoutHeaderGroup: 1
+  actionAnimator: {fileID: 867001000000000004}
+  visualRenderer: {fileID: 1279993452673991840}
+  visualAnimator: {fileID: 0}
+  blueActionAnimations: {fileID: 22100000, guid: 025c6fe452fa4510b96de43e00ec8d4c, type: 2}
+  orangeActionAnimations: {fileID: 22100000, guid: a76fe51491474bdcb14c3e9a135fccc8, type: 2}
+  blueDirectionalFrames:
+    left:
+      idle: {fileID: 0}
+      run:
+      - {fileID: 21300000, guid: 065c73286bbe487185b2ab606c0f9613, type: 3}
+      - {fileID: 21300000, guid: 5e319bea263740b79a7f9185ae5ae074, type: 3}
+      - {fileID: 21300000, guid: 9d2725690d284afd9a01ec1ecc419eae, type: 3}
+      - {fileID: 21300000, guid: 35615bb592e64f28a257331adae86117, type: 3}
+      shootPass:
+      - {fileID: 21300000, guid: c54676daab934102ae89c813c1e977a4, type: 3}
+      - {fileID: 21300000, guid: 837c830819834259899eacc4e13d35e0, type: 3}
+      - {fileID: 21300000, guid: 123475f140ac4fe388b5ca8e5b3928bd, type: 3}
+      - {fileID: 21300000, guid: b0d657f40a6e434b983ec84a14fb0740, type: 3}
+      dashTackle:
+      - {fileID: 21300000, guid: 443fb1cc9924457ca6efbb7160c8ae0b, type: 3}
+      - {fileID: 21300000, guid: 659292578a0144169de150fb77769386, type: 3}
+      - {fileID: 21300000, guid: e3d4688793c84990abf385457b058c42, type: 3}
+      - {fileID: 21300000, guid: c2e98b5d96f54b5a8bc95dbaa32bd392, type: 3}
+      getDown:
+      - {fileID: 21300000, guid: 1b5cb5c68b1241b693ee203abfd19143, type: 3}
+      - {fileID: 21300000, guid: 14bda3dac5cd4ba1b660babd8e22a246, type: 3}
+      - {fileID: 21300000, guid: dd2206aeaa264f0b86d0043ec7369ebb, type: 3}
+      - {fileID: 21300000, guid: ffd9222324c64c1a943af83c827c736e, type: 3}
+      getUp:
+      - {fileID: 21300000, guid: dbe27e124a7f4902bfdf4233709eb9c1, type: 3}
+      - {fileID: 21300000, guid: b9655ec440af4ecbbafdda8cd1c6aa9a, type: 3}
+      - {fileID: 21300000, guid: 8ae7284885494e7e887155753d41693b, type: 3}
+      - {fileID: 21300000, guid: 171fc56543f04e4087c5c53565f9dbd6, type: 3}
+    right:
+      idle: {fileID: 0}
+      run:
+      - {fileID: 21300000, guid: 5341381beac64044a82d8aaea1f75995, type: 3}
+      - {fileID: 21300000, guid: a9051a5a76084b3ca4144e220f02dfd2, type: 3}
+      - {fileID: 21300000, guid: 29bfe0557642466fa2a7109f89d01ec1, type: 3}
+      - {fileID: 21300000, guid: abd523f25afd49bca5bc94614d8a8b1f, type: 3}
+      shootPass:
+      - {fileID: 21300000, guid: 19a44531f0a64aafb1983f034777644c, type: 3}
+      - {fileID: 21300000, guid: 838d0dd7a0af47ea83614dc8353767d4, type: 3}
+      - {fileID: 21300000, guid: 6d0f4678e7074bea9e17409d58b39e23, type: 3}
+      - {fileID: 21300000, guid: f31e95b430914c1c81925e1bf0aca946, type: 3}
+      dashTackle:
+      - {fileID: 21300000, guid: 4bfdcb3247954c4a89fd3dbf3274786b, type: 3}
+      - {fileID: 21300000, guid: cc645ebc582c418699fdb287f849678d, type: 3}
+      - {fileID: 21300000, guid: cb38e9af9d64491ca6264073ac26da5c, type: 3}
+      - {fileID: 21300000, guid: 64512e6097b54e7e9efea62421cc469c, type: 3}
+      getDown:
+      - {fileID: 21300000, guid: 992b2f941c2e43ec91a0acab772e55f5, type: 3}
+      - {fileID: 21300000, guid: 65ceecd171184d14a02451caff3f1c53, type: 3}
+      - {fileID: 21300000, guid: 094473273fc84086af757309d791e726, type: 3}
+      - {fileID: 21300000, guid: b43f31bc25c7460898c1137b15b4d0cb, type: 3}
+      getUp:
+      - {fileID: 21300000, guid: 07efd24dd402451c8f4c24dbd151f74d, type: 3}
+      - {fileID: 21300000, guid: 5d227174c5bd420e986bfe025b909e71, type: 3}
+      - {fileID: 21300000, guid: ff8dcbaa2244472e8219bc241713f441, type: 3}
+      - {fileID: 21300000, guid: 61605f286902410d8e757ffacec0ce4a, type: 3}
+    up:
+      idle: {fileID: 21300000, guid: c9537e886f10430c82d4f09e305c0615, type: 3}
+      run:
+      - {fileID: 21300000, guid: 3036922029494161994d192a1f08a877, type: 3}
+      - {fileID: 21300000, guid: ae9f94756a7e49d48ee4c961ab68fd14, type: 3}
+      - {fileID: 21300000, guid: ba9dbfc41f9f4b15b925313dd9238773, type: 3}
+      - {fileID: 21300000, guid: afdc6acd05ba455f87b18e40272d2bd7, type: 3}
+      shootPass:
+      - {fileID: 21300000, guid: 85365d9e47a04c4d9a7cbd08896859ce, type: 3}
+      - {fileID: 21300000, guid: 7b2c4d7f38d24f1994d51e440af29de8, type: 3}
+      - {fileID: 21300000, guid: d3630e55874141298658ac5d1ecb2de2, type: 3}
+      - {fileID: 21300000, guid: 55e8916332e0463798bde9055640b715, type: 3}
+      dashTackle:
+      - {fileID: 21300000, guid: 9ded118485a14322a30a5fded88f0d21, type: 3}
+      - {fileID: 21300000, guid: 2763f81784d446feb53094e4cc2c873a, type: 3}
+      - {fileID: 21300000, guid: 44694ddeeb7b4d7bb63ee65268121f5f, type: 3}
+      - {fileID: 21300000, guid: 2771e48323e5489ba496e4d7ec903d9f, type: 3}
+      getDown:
+      - {fileID: 21300000, guid: 96bf103e0ebb41af8f0c66f01527971e, type: 3}
+      - {fileID: 21300000, guid: 15356e5efdf2468ebb1fdcdbc0b4d149, type: 3}
+      - {fileID: 21300000, guid: 5e864095b1f747129ca8e4779abd7259, type: 3}
+      - {fileID: 21300000, guid: a9ac0a375f574415a874e01eab0f2397, type: 3}
+      getUp:
+      - {fileID: 21300000, guid: cb9aa425b0b9426abf91c5fdac79fdf2, type: 3}
+      - {fileID: 21300000, guid: 9886a99d1e61445ebc91ed7f4e92eb42, type: 3}
+      - {fileID: 21300000, guid: c83376db46b242a691e9c70c072c0a96, type: 3}
+      - {fileID: 21300000, guid: 55632086439b46b1b31711f0f962255b, type: 3}
+  orangeDirectionalFrames:
+    left:
+      idle: {fileID: 0}
+      run:
+      - {fileID: 21300000, guid: c48a6ebce7af4df09c43fb81baeb1c43, type: 3}
+      - {fileID: 21300000, guid: 6a2cf613b0b34339b5b20adde39ed3ad, type: 3}
+      - {fileID: 21300000, guid: 7255d2728eb3426f8e60199823a8fcb4, type: 3}
+      - {fileID: 21300000, guid: 7643efe47f0a4e9e9c2e92e334fae2b2, type: 3}
+      shootPass:
+      - {fileID: 21300000, guid: 9c54c3aed8b849c286a286ee745c70a7, type: 3}
+      - {fileID: 21300000, guid: 3e3d14e8c37d4ec5861d87efac05645f, type: 3}
+      - {fileID: 21300000, guid: 3011a98e59964a6f8f1035ed8ec70517, type: 3}
+      - {fileID: 21300000, guid: 613171b70d1a42e0af6309ccb6debfcb, type: 3}
+      dashTackle:
+      - {fileID: 21300000, guid: 8928b47fbaa9470aa25835fc27d1d199, type: 3}
+      - {fileID: 21300000, guid: 727237bdf1594ccdada2e8fe14fb71f9, type: 3}
+      - {fileID: 21300000, guid: 35e9359e3b944ecf857659ee2c452de2, type: 3}
+      - {fileID: 21300000, guid: 22dcda960dd14846a6f8a49348b42463, type: 3}
+      getDown:
+      - {fileID: 21300000, guid: 67d3ab1cae034c0f9948da7ed8f28b33, type: 3}
+      - {fileID: 21300000, guid: 41d2147b09fb4854acca874313aa618c, type: 3}
+      - {fileID: 21300000, guid: afc01884b4e446e6930202b9216f94d5, type: 3}
+      - {fileID: 21300000, guid: 364b0bafe6404857bdbef02a0437ad4b, type: 3}
+      getUp:
+      - {fileID: 21300000, guid: 269918b483f349feae8c1bd43fee1479, type: 3}
+      - {fileID: 21300000, guid: b6796a8e372c4e4281dd87c1c3a4c3c8, type: 3}
+      - {fileID: 21300000, guid: 2e0cfaaf52f94943a708fa4aa4540e26, type: 3}
+      - {fileID: 21300000, guid: 490bb6ed19fb415987c64509096dc89d, type: 3}
+    right:
+      idle: {fileID: 0}
+      run:
+      - {fileID: 21300000, guid: bf741a6ff62b4dacbe39e8a898fd2366, type: 3}
+      - {fileID: 21300000, guid: da757f8e33214be096b152831bb17ce3, type: 3}
+      - {fileID: 21300000, guid: ca35f6cbcdea4d268b583b6c55b27368, type: 3}
+      - {fileID: 21300000, guid: d66278ae24db45919a89c1c5e483974c, type: 3}
+      shootPass:
+      - {fileID: 21300000, guid: 6159e83ed8604909a2147284be9694f1, type: 3}
+      - {fileID: 21300000, guid: 12d177b31c044367b77483659028df3d, type: 3}
+      - {fileID: 21300000, guid: e819e74179574dd09167fc2a40797e98, type: 3}
+      - {fileID: 21300000, guid: c10fe4bf44474d60a7876473c22c73e8, type: 3}
+      dashTackle:
+      - {fileID: 21300000, guid: d31b22445823452fa049b8cabea500b8, type: 3}
+      - {fileID: 21300000, guid: 3ea38ed579454690aa74ce98cf7f0e27, type: 3}
+      - {fileID: 21300000, guid: 76afcdda959b44b889f34b343a5ff9cd, type: 3}
+      - {fileID: 21300000, guid: ef505aeabfe041089b65f7168b1b6327, type: 3}
+      getDown:
+      - {fileID: 21300000, guid: 663b358fd87b44c7ae57644acb79cfd1, type: 3}
+      - {fileID: 21300000, guid: a0b6152eadcf4e03816a7d0d3a451411, type: 3}
+      - {fileID: 21300000, guid: e118215c45244cf8b87e185bbe7c3cc1, type: 3}
+      - {fileID: 21300000, guid: 9e10936a0ed8438c8c52e6c09be99b93, type: 3}
+      getUp:
+      - {fileID: 21300000, guid: 38702fe3e37d412fbcf5eda7c2da72f1, type: 3}
+      - {fileID: 21300000, guid: f4eabe5d64544b2084a42a1204b183c1, type: 3}
+      - {fileID: 21300000, guid: a5b8f71ec88843b09c31306d0d4a0dfc, type: 3}
+      - {fileID: 21300000, guid: cb6b42980c5643ceb35b7affa26570f8, type: 3}
+    up:
+      idle: {fileID: 21300000, guid: e4ac6d616dd54bd998ea2410cc63b64f, type: 3}
+      run:
+      - {fileID: 21300000, guid: 835bb904a1a84414b968aa3156d51439, type: 3}
+      - {fileID: 21300000, guid: 193064b933914adfbcc57707092c5016, type: 3}
+      - {fileID: 21300000, guid: d03671b50128422eaf7fe68bdff02a30, type: 3}
+      - {fileID: 21300000, guid: 467c7ea6693d42d8aa0c79e277dfc6b4, type: 3}
+      shootPass:
+      - {fileID: 21300000, guid: 6ba835d79e94460f8afeafcc84766398, type: 3}
+      - {fileID: 21300000, guid: 6ce02161181e4cf69312ed390d967b18, type: 3}
+      - {fileID: 21300000, guid: 720266c2ab1542aa82bae9c851b99593, type: 3}
+      - {fileID: 21300000, guid: 34c216e5dec6496a824b95a668d57e14, type: 3}
+      dashTackle:
+      - {fileID: 21300000, guid: aa791f8e00e24b44b0a48495c79e53e5, type: 3}
+      - {fileID: 21300000, guid: 62c2f1d3032e4207a30f2ab0890bd4b2, type: 3}
+      - {fileID: 21300000, guid: c232ca0666f547769d513975c54408a5, type: 3}
+      - {fileID: 21300000, guid: 9954303135f04009b951aa5fd0d9ee1b, type: 3}
+      getDown:
+      - {fileID: 21300000, guid: e40ef11a7f154bcd957f269615243d83, type: 3}
+      - {fileID: 21300000, guid: 2770177985354208b20b68947132c8d1, type: 3}
+      - {fileID: 21300000, guid: 288aa69b19fc47ad8e8cea7c54d80aaa, type: 3}
+      - {fileID: 21300000, guid: 7e6f60aa5d4d45a0859bdcb5c6b0a485, type: 3}
+      getUp:
+      - {fileID: 21300000, guid: 367d2ced9a5244c28612be96ce3cd570, type: 3}
+      - {fileID: 21300000, guid: 822623db34794f02820919e17902ef23, type: 3}
+      - {fileID: 21300000, guid: 0e84ab406cc54409bf4340f71a30a36b, type: 3}
+      - {fileID: 21300000, guid: 70b9c8c1a291465183ba058aa35d4234, type: 3}
+  animateIdleSprite: 0
+  animateRunSprite: 1
+  animationSpriteScale: 0.82
   speed: 3
+  courtEdgeClearance: {x: 0.7, y: 0.68}
   inputActions: {fileID: -944628639613478452, guid: b740e063c68e4c79a352b9e726becc04, type: 3}
   joystickPrefab: {fileID: 1004, guid: a9f65c8ea08f4c24aa2ce239383c5508, type: 3}
+  blueFrontSprite: {fileID: 21300000, guid: 0000c220e3968494b9459416a4d179ba, type: 3}
+  orangeFrontSprite: {fileID: 21300000, guid: 1916e1fcbf903ce4ca624ab0908ae559, type: 3}
+  blueFacingLeftSprite: {fileID: 21300000, guid: 7586cf3a01ebc1145afafc925a0dabd1, type: 3}
+  blueFacingRightSprite: {fileID: 21300000, guid: e22d0419f82db7e4287f11114a524a5d, type: 3}
+  orangeFacingLeftSprite: {fileID: 21300000, guid: d3348a3c43d20e04197a628c3d13331e, type: 3}
+  orangeFacingRightSprite: {fileID: 21300000, guid: d625559ec57b7f24693526df26d5b950, type: 3}
+  movementAnimationSpeed: 12
+  movementAnimationHeight: 0.035
+  Team:
+    m_InternalValue: 0
+  PlayerName:
+    m_InternalValue:
+      utf8LengthInBytes: 0
+      bytes:
+        offset0000:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0016:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0032:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        byte0048: 0
+        byte0049: 0
+        byte0050: 0
+        byte0051: 0
+        byte0052: 0
+        byte0053: 0
+        byte0054: 0
+        byte0055: 0
+        byte0056: 0
+        byte0057: 0
+        byte0058: 0
+        byte0059: 0
+        byte0060: 0
+        byte0061: 0
+  Ready:
+    m_InternalValue: 0
+  IsBot:
+    m_InternalValue: 0
+  GoalCount:
+    m_InternalValue: 0
+  AssistCount:
+    m_InternalValue: 0
+  TackleCount:
+    m_InternalValue: 0
+  RecoverUntil:
+    m_InternalValue: 0
+  SpecialMoveReadyAt:
+    m_InternalValue: 0
+--- !u!114 &2068145168209047321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6000586751564437356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd80890c0852294099f0f3a3a165f93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MatchController
+  ShowTopMostFoldoutHeaderGroup: 1
+  ballPrefab: {fileID: 9058164870724540025, guid: 6a4fcc1adc8f37c47adfea2720fed08f, type: 3}
+  matchLength: 180
+  BlueScore:
+    m_InternalValue: 0
+  OrangeScore:
+    m_InternalValue: 0
+  Phase:
+    m_InternalValue: 0
+  SecondsRemaining:
+    m_InternalValue: 180
+  RosterFull:
+    m_InternalValue: 0
+  EveryoneReady:
+    m_InternalValue: 0
+  MapChoice:
+    m_InternalValue: 0
+  Result:
+    m_InternalValue:
+      utf8LengthInBytes: 0
+      bytes:
+        offset0000:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0016:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0032:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0048:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0064:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0080:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0096:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0112:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0128:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0144:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0160:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0176:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0192:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0208:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0224:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0240:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0256:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0272:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0288:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0304:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0320:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0336:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0352:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0368:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0384:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0400:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0416:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0432:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0448:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0464:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        offset0480:
+          byte0000: 0
+          byte0001: 0
+          byte0002: 0
+          byte0003: 0
+          byte0004: 0
+          byte0005: 0
+          byte0006: 0
+          byte0007: 0
+          byte0008: 0
+          byte0009: 0
+          byte0010: 0
+          byte0011: 0
+          byte0012: 0
+          byte0013: 0
+          byte0014: 0
+          byte0015: 0
+        byte0496: 0
+        byte0497: 0
+        byte0498: 0
+        byte0499: 0
+        byte0500: 0
+        byte0501: 0
+        byte0502: 0
+        byte0503: 0
+        byte0504: 0
+        byte0505: 0
+        byte0506: 0
+        byte0507: 0
+        byte0508: 0
+        byte0509: 0
+--- !u!114 &867001000000000004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6000586751564437356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0727d5ae3244e3b569694d3912374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.Components.NetworkAnimator
+  ShowTopMostFoldoutHeaderGroup: 1
+  TransitionStateInfoList: []
+  m_Animator: {fileID: 867001000000000003}

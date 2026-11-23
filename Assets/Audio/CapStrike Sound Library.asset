@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fd00a83ad441e88bba0afa8bb2333b, type: 3}
+  m_Name: CapStrike Sound Library
+  m_EditorClassIdentifier: Assembly-CSharp::GameSoundLibrary
+  menuMusic: {fileID: 8300000, guid: c49126ec944ca7648a78adb179209954, type: 3}
+  matchMusic: {fileID: 8300000, guid: 51900a03ca1bca74aa0f26521aa6eb6a, type: 3}
+  musicVolume: 0.3
+  effectsVolume: 0.85
+  effects:
+  - cue: 0
+    clip: {fileID: 8300000, guid: e589ba2e046b4cf4eb5aa5e0ecb3529e, type: 3}
+  - cue: 1
+    clip: {fileID: 8300000, guid: cb30d1ef853533f4ab2deb59efa06037, type: 3}
+  - cue: 2
+    clip: {fileID: 8300000, guid: 533ba8ce7f49acc40a5443697b34e165, type: 3}
+  - cue: 3
+    clip: {fileID: 8300000, guid: 105ec473b7c2cce43bb0245eb04d740d, type: 3}
+  - cue: 4
+    clip: {fileID: 8300000, guid: 2985cb0ee8137cb488529c1626caf2ab, type: 3}
+  - cue: 5
+    clip: {fileID: 8300000, guid: 146efccda2173b64a8736915a12e76d3, type: 3}
+  - cue: 6
+    clip: {fileID: 8300000, guid: 89dcb58a1fda8a14ea0c696605e5e889, type: 3}
+  - cue: 7
+    clip: {fileID: 8300000, guid: b924fef1cdb0d254fb51a7fdbf59b7a7, type: 3}
+  - cue: 8
+    clip: {fileID: 8300000, guid: 41ac110915248c4439e395789291fdb7, type: 3}
+  - cue: 9
+    clip: {fileID: 8300000, guid: bf50f3ac755144347b84617be6f823aa, type: 3}
+  - cue: 10
+    clip: {fileID: 8300000, guid: 038588ed0718e894985eee096cd42249, type: 3}
+  - cue: 11
+    clip: {fileID: 8300000, guid: 37bab642858d15b46b02be04e6644e4b, type: 3}
+  - cue: 12
+    clip: {fileID: 8300000, guid: dbaa804014d8ec94b9df7d7bce92cbcd, type: 3}
+  - cue: 13
+    clip: {fileID: 8300000, guid: 488f1fa3d9be506418036c3c00943a70, type: 3}
+  - cue: 14
+    clip: {fileID: 8300000, guid: 4b70d3062f6a0544e89d6be4090c42b7, type: 3}
+  - cue: 15
+    clip: {fileID: 8300000, guid: 466978bff6bb95c44b0469016c06f898, type: 3}
+  - cue: 16
+    clip: {fileID: 8300000, guid: e77e4c04480696c41940ba61a19ab3d1, type: 3}
+  - cue: 17
+    clip: {fileID: 8300000, guid: 6294ac8eaad3c6245b3004d2e1d184f0, type: 3}
+  - cue: 18
+    clip: {fileID: 8300000, guid: 667001b85f9647c4d8a59cf67b11c73f, type: 3}
+  - cue: 19
+    clip: {fileID: 8300000, guid: b2f9f3fa6aff1174190691a1883a8ec1, type: 3}
+  - cue: 20
+    clip: {fileID: 8300000, guid: db6994569312c324e917efe0aeb16dea, type: 3}
+  - cue: 21
+    clip: {fileID: 8300000, guid: 0e9fd6bf88671ad4eb12ed5b4bac26fb, type: 3}
+  - cue: 22
+    clip: {fileID: 8300000, guid: 7311aa762d30bb547a3fc3ca04a90207, type: 3}
+  - cue: 23
+    clip: {fileID: 8300000, guid: e9ce7675224730345a1147029b3329f9, type: 3}
+  - cue: 24
+    clip: {fileID: 8300000, guid: 16eb5ff3f16f5d748a3f7c9ef553a718, type: 3}
+  - cue: 25
+    clip: {fileID: 8300000, guid: 71feaa70ab6502047899da45fa6c3e04, type: 3}
