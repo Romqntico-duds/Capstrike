@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.22f1 (1c726e1fb402) revision 1864302'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Edsel" at "2026-11-23T06:58:07.6181375Z"
-OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 15790 MB
+OS: 'Windows 11  (10.0.26300) ProfessionalWorkstationN' Language: 'en' Physical Memory: 32686 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-AURUS" at "2026-11-23T14:11:06.0836824Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-11-23T06:58:07Z
+Date: 2026-11-23T14:11:06Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.22f1\Editor\Unity.exe
@@ -15,35 +15,35 @@ C:\Program Files\Unity\Hub\Editor\6000.3.22f1\Editor\Unity.exe
 -name
 AssetImportWorker3
 -projectPath
-D:/School Acts - Unity/Game Networking/Capstrike
+C:/Users/AURUS/Desktop/capstrike/Capstrike
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-57779
+54289
 -parentPid
-23476
+38856
 -analyticsCloudUserId
-18968324423122
+18968332616194
 -analyticsLocalProjectId
 1e820c1ec21e8e34b990f06d4a13bd69
 -editorAnalyticsEnabled
 1
 -cbmEditorLicense
-904d9b974c18a886e5845d693a53d914eaee47bf
+5796f392e08abba928b6d866e8c5cc0a3a3a6e81
 -cbmMachineId
-6G2DppFK1JjNj5pFzM4bopXg4Kc=
+FPVFZCm6QOwtXpr7a5XNDdeE/48=
 -licensingIpc
-LicenseClient-Edsel
+LicenseClient-AURUS
 -job-worker-count
-5
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/School Acts - Unity/Game Networking/Capstrike
-D:/School Acts - Unity/Game Networking/Capstrike
+Successfully changed project path to: C:/Users/AURUS/Desktop/capstrike/Capstrike
+C:/Users/AURUS/Desktop/capstrike/Capstrike
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -79,13 +79,13 @@ D:/School Acts - Unity/Game Networking/Capstrike
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [29604]  Target information:
+Player connection [19724]  Target information:
 
-Player connection [29604]  * "[IP] 192.168.100.54 [Port] 0 [Flags] 2 [Guid] 543365450 [EditorId] 543365450 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7UAHQLP7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19724]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 4079039415 [EditorId] 4079039415 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GUUG6AO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29604] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29604] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [19724] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19724] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -96,93 +96,117 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Edsel"
-[Licensing::IpcConnector] LicenseClient-Edsel channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Edsel-6000.3.22" at "2026-11-23T06:58:08.8959161Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26564, path: "C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              bd95b0daaaa143769a3b86fc67f2ff29
-  Correlation Id:          c3b52050e12667c4569a75568023c24f
-  External correlation Id: 8909960909510827046
-  Machine Id:              6G2DppFK1JjNj5pFzM4bopXg4Kc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Edsel-6000.3.22" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Edsel-6000.3.22-notifications" at "2026-11-23T06:58:08.9072734Z"
-[Licensing::Module] Licensing Background thread has ended after 1.29s
-[Licensing::Module] Licensing is initialized (took 1.00s).
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 18968324423122-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 15.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.22f1 (1c726e1fb402)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/School Acts - Unity/Game Networking/Capstrike/Assets
+[Subsystems] Discovering subsystems at path C:/Users/AURUS/Desktop/capstrike/Capstrike/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
-    Version:         Direct3D 12 [level 12.1]
-    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:          NVIDIA
-    VRAM:            3935 MB
-    App VRAM Budget: 3344 MB
-    Driver:          32.0.15.9649
+    VRAM:            12113 MB
+    App VRAM Budget: 11345 MB
+    Driver:          32.0.16.1088
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-AURUS"
+[Licensing::IpcConnector] LicenseClient-AURUS channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-AURUS-6000.3.22" at "2026-11-23T14:11:11.0449625Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34540, path: "C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              c87cadd1a2224357b7bcefa6d9788178
+  Correlation Id:          78bd32bb7c00ee641a48679d86871d27
+  External correlation Id: 3668724470177478194
+  Machine Id:              FPVFZCm6QOwtXpr7a5XNDdeE/48=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-AURUS-6000.3.22" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-AURUS-6000.3.22-notifications" at "2026-11-23T14:11:11.0778236Z"
+[Licensing::Module] Licensing Background thread has ended after 4.99s
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968332616194-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003355 seconds.
-- Loaded All Assemblies, in  0.546 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 1.261163 seconds.
+- Loaded All Assemblies, in 10.468 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.516 seconds
-Domain Reload Profiling: 1058ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  1.290 seconds
+Domain Reload Profiling: 11755ms
+	BeginReloadAssembly (6898ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (174ms)
+	RebuildCommonClasses (453ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (1311ms)
+	LoadAllAssembliesAndSetupDomain (1790ms)
+		LoadAssemblies (6933ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (218ms)
+		AnalyzeDomain (1747ms)
+			TypeCache.Refresh (1745ms)
+				TypeCache.ScanAssembly (1477ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (517ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1291ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
+		SetupLoadedEditorAssemblies (1251ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (75ms)
+			InitializePlatformSupportModulesInManaged (968ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (171ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -193,474 +217,296 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.619 seconds
+- Loaded All Assemblies, in  4.374 seconds
 Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
 Native extension for Android target not found
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.562 seconds
-Domain Reload Profiling: 1177ms
-	BeginReloadAssembly (209ms)
+- Finished resetting the current domain, in  0.458 seconds
+Domain Reload Profiling: 4827ms
+	BeginReloadAssembly (174ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (314ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (4108ms)
+		LoadAssemblies (3748ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (113ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (74ms)
-			BuildScriptInfoCaches (18ms)
+		AnalyzeDomain (462ms)
+			TypeCache.Refresh (442ms)
+				TypeCache.ScanAssembly (429ms)
+			BuildScriptInfoCaches (14ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (562ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (429ms)
+		SetupLoadedEditorAssemblies (356ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 2115 unused Assets / (0.6 MB). Loaded Objects now: 2701.
-Memory consumption went from 91.9 MB to 91.3 MB.
-Total: 6.282300 ms (FindLiveObjects: 0.325600 ms CreateObjectMapping: 0.163400 ms MarkObjects: 5.084400 ms  DeleteObjects: 0.706800 ms)
+Unloading 2118 unused Assets / (422.0 KB). Loaded Objects now: 2723.
+Memory consumption went from 94.0 MB to 93.6 MB.
+Total: 5.492200 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.139800 ms MarkObjects: 4.674600 ms  DeleteObjects: 0.441900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3419.047806 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 1.png
-  artifactKey: Guid(4c14c4b17bf73b245a3556dd0f9d7257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 1.png using Guid(4c14c4b17bf73b245a3556dd0f9d7257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0a68a484974ed3a9e7b8bb1ff77a295') in 0.2270722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Orange - 1.png
-  artifactKey: Guid(974425fdc8944a44ea2d1e092eb48d1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Orange - 1.png using Guid(974425fdc8944a44ea2d1e092eb48d1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e5f71ee53ee1ac110f8e50070988bd40') in 0.0392164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Orange - 4.png
-  artifactKey: Guid(6228dbec4e199ce40abb50c79b2d2972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Orange - 4.png using Guid(6228dbec4e199ce40abb50c79b2d2972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b799e6b75d286a70df5e0a3fa21c44ea') in 0.0465218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 3.png
-  artifactKey: Guid(e40254a3ac4809f4d8cacdc697be6da4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 3.png using Guid(e40254a3ac4809f4d8cacdc697be6da4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de39a4611f539f3302f7b4766240e41a') in 0.0502307 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 3.png
-  artifactKey: Guid(eca85b5f355d1d5408b4cd38bf071e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 3.png using Guid(eca85b5f355d1d5408b4cd38bf071e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ea9368fb6b46520b08a2d738e01e130') in 0.0306509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 4.png
-  artifactKey: Guid(7a4926d697b86ee45982fe849b821834) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 4.png using Guid(7a4926d697b86ee45982fe849b821834) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4c3549ac8bc89665ab677e44ea9cc13') in 0.0476901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 2.png
-  artifactKey: Guid(761bca5e8ad35e6419b746a1a988d096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 2.png using Guid(761bca5e8ad35e6419b746a1a988d096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad913c4883e16d2108b5268653dcfa2d') in 0.0334827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down
-  artifactKey: Guid(cc69db648f2fa6a4898ed585365709b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Down using Guid(cc69db648f2fa6a4898ed585365709b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e93fcb33d3af078fc6a7fc37d542176c') in 0.0132734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up
-  artifactKey: Guid(9bd9552756fc8af46996fd5727e34c1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Up using Guid(9bd9552756fc8af46996fd5727e34c1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '629b8088cdbf0c6d92ca0865c821000b') in 0.0127949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Blue - 4.png
-  artifactKey: Guid(d39251f7039b8024d9f992d15a4cc677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Blue - 4.png using Guid(d39251f7039b8024d9f992d15a4cc677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '795f13eeccfef2639422aa13effee434') in 0.0331801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 2.png
-  artifactKey: Guid(ba2a70c2170401942bf53348b7e64afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 2.png using Guid(ba2a70c2170401942bf53348b7e64afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35b919a3f38c4f8e8554cd333ca573d1') in 0.0326287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 4.png
-  artifactKey: Guid(33eaf8cc53ec9054081c945371ded640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 4.png using Guid(33eaf8cc53ec9054081c945371ded640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '495e59d2491288cd4fe07a184eb1c787') in 0.0484139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 2.png
-  artifactKey: Guid(fb9168a89ef0f71468d06d79013437c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 2.png using Guid(fb9168a89ef0f71468d06d79013437c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '407e600b2db40b5b8aad94645e5edf50') in 0.043617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.668844 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 3.png
-  artifactKey: Guid(eca85b5f355d1d5408b4cd38bf071e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 3.png using Guid(eca85b5f355d1d5408b4cd38bf071e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fb39319f811413e3c52d1fdd6105565') in 0.1120741 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 4.png
-  artifactKey: Guid(2027e04cd21453846adebc80ef395ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 4.png using Guid(2027e04cd21453846adebc80ef395ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e454081793b9281cfabfb0ef896654e0') in 0.0440422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.429028 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 3.png
-  artifactKey: Guid(eca85b5f355d1d5408b4cd38bf071e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 3.png using Guid(eca85b5f355d1d5408b4cd38bf071e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95fc4a615820e2110887fd46bb9a9b5b') in 0.0869671 seconds
+  Time since last request: 38708.262778 seconds.
+  path: Assets/UI/Player/BlueFacingRight.png
+  artifactKey: Guid(e22d0419f82db7e4287f11114a524a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Player/BlueFacingRight.png using Guid(e22d0419f82db7e4287f11114a524a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'aee4457218b1ab563acaa7bcfd010581') in 0.1401062 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Orange - 2.png
-  artifactKey: Guid(56c2741b119942c409fcc3c66d2128c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Orange - 2.png using Guid(56c2741b119942c409fcc3c66d2128c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89ff1f7dca654b1fb5f166580ddfc141') in 0.0476973 seconds
+  Time since last request: 0.450578 seconds.
+  path: Assets/UI/UI Prefabs/GameUI.prefab
+  artifactKey: Guid(92b337accf88459ea2059265734ff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UI Prefabs/GameUI.prefab using Guid(92b337accf88459ea2059265734ff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60def2f52620fa4bf5a1da155f4a49c7') in 0.1881076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 781
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.908582 seconds.
+  path: Assets/UI/LocalPNG/Choose_team(blue).png
+  artifactKey: Guid(4cf3a7b63acaca246856e148a5238d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Choose_team(blue).png using Guid(4cf3a7b63acaca246856e148a5238d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca5641dab512291a2d872c68c48dd175') in 0.0134701 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Orange - 1.png
-  artifactKey: Guid(5e83d9e9e152197438f819962edee277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Orange - 1.png using Guid(5e83d9e9e152197438f819962edee277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a21d8092710476d3cb364f2c6c527d77') in 0.0452337 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/LocalPNG/Choose_team(blue) 1.png
+  artifactKey: Guid(8f71dbc0c5b70524f9a02ae8c8b95ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Choose_team(blue) 1.png using Guid(8f71dbc0c5b70524f9a02ae8c8b95ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '138492e7fa6cace69088f5aa8925ea17') in 0.0101596 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.769621 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Orange - 3.png
-  artifactKey: Guid(8ec5dd53f184ad4418cc413bde399573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Orange - 3.png using Guid(8ec5dd53f184ad4418cc413bde399573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57be119cf6a511bfae1df721eb661032') in 0.0366185 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/LocalPNG/Choose_team(orange)-1.png
+  artifactKey: Guid(a6dea0d5c56fe164680ed31f76306add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Choose_team(orange)-1.png using Guid(a6dea0d5c56fe164680ed31f76306add) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '644bf2eaf1a908f74840e948592c7606') in 0.0105319 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 1.png
-  artifactKey: Guid(945d025081b62c647a76c659a2c27237) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Shoot/Shoot - Blue - 1.png using Guid(945d025081b62c647a76c659a2c27237) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0a7e6e8311854ecfdce34a6b1623889') in 0.0277286 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/LocalPNG/Filled Player.png
+  artifactKey: Guid(877bf06ac8514da429f66449c9f4cbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Filled Player.png using Guid(877bf06ac8514da429f66449c9f4cbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daf7ac4ad04bc12dc165d4e62d2ba9c8') in 0.0158753 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.561390 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Blue - 3.png
-  artifactKey: Guid(93371291f06f4b24f9698c16f881ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Blue - 3.png using Guid(93371291f06f4b24f9698c16f881ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '408f0b1d0dec6990b7802d3661303b54') in 0.0491449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Orange - 3.png
-  artifactKey: Guid(7bbc223c214bb3149a8fb76799d09c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Orange - 3.png using Guid(7bbc223c214bb3149a8fb76799d09c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ed212d077e0f628474ca6d90c68b1a4') in 0.038453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Orange - 4.png
-  artifactKey: Guid(6228dbec4e199ce40abb50c79b2d2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Orange - 4.png using Guid(6228dbec4e199ce40abb50c79b2d2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '506157ff5abd4a90c45c2a955b3d6461') in 0.0402916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.102422 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Blue - 3.png
-  artifactKey: Guid(93371291f06f4b24f9698c16f881ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Blue - 3.png using Guid(93371291f06f4b24f9698c16f881ae6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcb470625a9b473fef51ae01b9ad0808') in 0.0574345 seconds
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/LocalPNG/Connected.png
+  artifactKey: Guid(c741e0e7618f8e7409f8039367bb95e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Connected.png using Guid(c741e0e7618f8e7409f8039367bb95e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89f7f4cf35485135dd42955391d015da') in 0.0235089 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Orange - 2.png
-  artifactKey: Guid(b76e85a4d13364c4c9637947cd83246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Orange - 2.png using Guid(b76e85a4d13364c4c9637947cd83246b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dc438689fa9ee25ea88d4a261b6237b') in 0.0514738 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/LocalPNG/Disconnect 1.png
+  artifactKey: Guid(2b77185d07c14324b8cdc0d396d468e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Disconnect 1.png using Guid(2b77185d07c14324b8cdc0d396d468e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e3929e6a33b56a02472fb3d3008277c') in 0.0173329 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Blue - 4.png
-  artifactKey: Guid(d39251f7039b8024d9f992d15a4cc677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Blue - 4.png using Guid(d39251f7039b8024d9f992d15a4cc677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd2fa6c732de68e8a62c4ef4d281165') in 0.0517246 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/LocalPNG/Enter_IP.png
+  artifactKey: Guid(ead8e5c389b317a43a8ea2d7d95fb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Enter_IP.png using Guid(ead8e5c389b317a43a8ea2d7d95fb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55b61c965530665024eb0b73fd68d235') in 0.024997 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.795417 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Blue - 1.png
-  artifactKey: Guid(f4aa99d3b68361c4fb9d20ce93c5a2ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Blue - 1.png using Guid(f4aa99d3b68361c4fb9d20ce93c5a2ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '610f33997723f568dffee8acfc272004') in 0.0197961 seconds
+  Time since last request: 3.648438 seconds.
+  path: Assets/UI/LocalPNG/Full(orange)-1.png
+  artifactKey: Guid(8dfc3fec86b9ac64b9b7aac23a242c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Full(orange)-1.png using Guid(8dfc3fec86b9ac64b9b7aac23a242c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0625ae0a95f8ad4f1181d0bdc5d6e88d') in 0.0220286 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Orange - 3.png
-  artifactKey: Guid(7bbc223c214bb3149a8fb76799d09c6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Orange - 3.png using Guid(7bbc223c214bb3149a8fb76799d09c6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5854391b381baad52abcdfbdb7f2a226') in 0.0311623 seconds
+  Time since last request: 0.020539 seconds.
+  path: Assets/UI/LocalPNG/Host_Game(button).png
+  artifactKey: Guid(593c86a2dc032f14f84981ac5a3336b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Host_Game(button).png using Guid(593c86a2dc032f14f84981ac5a3336b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e862eedd911630e743225137337f80c9') in 0.0122533 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/UI/Player/Animation Frames/Run/Run - Blue - 4.png
-  artifactKey: Guid(d39251f7039b8024d9f992d15a4cc677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Run/Run - Blue - 4.png using Guid(d39251f7039b8024d9f992d15a4cc677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '107eb6401c65eb6a547234739c61429c') in 0.0310016 seconds
+  Time since last request: 0.491623 seconds.
+  path: Assets/UI/LocalPNG/HUD Header 1.png
+  artifactKey: Guid(401bb74bdf2ecb84b8ac2db5f6fda878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/HUD Header 1.png using Guid(401bb74bdf2ecb84b8ac2db5f6fda878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e6c1f5486a9c9031b8d3632a9a1e10') in 0.0137886 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.851466 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 3.png
-  artifactKey: Guid(8b004c3c2980e0f43b9ab391dbcd9c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 3.png using Guid(8b004c3c2980e0f43b9ab391dbcd9c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '053a10b93b8638d063039b4d2e596a43') in 0.0561398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 2.png
-  artifactKey: Guid(fb9168a89ef0f71468d06d79013437c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 2.png using Guid(fb9168a89ef0f71468d06d79013437c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3f8583b3755a2427c5dbd0a49999142') in 0.0499397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 1.png
-  artifactKey: Guid(d43e5a195ff8ef744a6dfa8a432b16fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 1.png using Guid(d43e5a195ff8ef744a6dfa8a432b16fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7409c66416cbe31676a9d908a7c61e72') in 0.0464015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.189289 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 3.png
-  artifactKey: Guid(8b004c3c2980e0f43b9ab391dbcd9c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 3.png using Guid(8b004c3c2980e0f43b9ab391dbcd9c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f518a015e95f1bc46b865c35282f2d8b') in 0.0736761 seconds
+  Time since last request: 0.021059 seconds.
+  path: Assets/UI/LocalPNG/Join_Blue(button).png
+  artifactKey: Guid(c0722372d2f8dce4e8c9b16ee8454601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Join_Blue(button).png using Guid(c0722372d2f8dce4e8c9b16ee8454601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fe8329aa6aaab4a7ba5e211cd5a17a2') in 0.012155 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 3.png
-  artifactKey: Guid(cf46f43cc036e6441b857ba5ecfcf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 3.png using Guid(cf46f43cc036e6441b857ba5ecfcf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e620a988eb31daa4c0f5f34569a55113') in 0.071291 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/LocalPNG/Maglaro.png
+  artifactKey: Guid(23e422624843a3c478a9c3e1ced4dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Maglaro.png using Guid(23e422624843a3c478a9c3e1ced4dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57f94548f19decfa2aedc2af1bf35f8c') in 0.0114749 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 1.png
-  artifactKey: Guid(d43e5a195ff8ef744a6dfa8a432b16fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 1.png using Guid(d43e5a195ff8ef744a6dfa8a432b16fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc2de037aef8d2d4aa22037984bd49d8') in 0.0564899 seconds
+  Time since last request: 0.536570 seconds.
+  path: Assets/UI/LocalPNG/Map 2.png
+  artifactKey: Guid(d7932a66ea460a041893ed933752785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Map 2.png using Guid(d7932a66ea460a041893ed933752785c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19af884314a84b338e6bc39d330ae1a5') in 0.013222 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.747325 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 2.png
-  artifactKey: Guid(fb9168a89ef0f71468d06d79013437c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 2.png using Guid(fb9168a89ef0f71468d06d79013437c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7906432f81c26aec058c0c9457aaaad1') in 0.0242891 seconds
+  Time since last request: 0.004131 seconds.
+  path: Assets/UI/LocalPNG/Open_Slot(Occupied)orange.png
+  artifactKey: Guid(5ef360757800ebb4999ed55a8c13d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Open_Slot(Occupied)orange.png using Guid(5ef360757800ebb4999ed55a8c13d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d222ff05566e6b05355d735d808ec2c') in 0.0144254 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 4.png
-  artifactKey: Guid(7a4926d697b86ee45982fe849b821834) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Orange - Get-up - 4.png using Guid(7a4926d697b86ee45982fe849b821834) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e974786f65e40c857bea33b41ac3e77e') in 0.0276733 seconds
+  Time since last request: 0.008041 seconds.
+  path: Assets/UI/LocalPNG/Quit(button).png
+  artifactKey: Guid(d8cd87dbcac505e46aef84cfbc4d2634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Quit(button).png using Guid(d8cd87dbcac505e46aef84cfbc4d2634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c5cc55d811331ebf4f8f7b32e45fb59') in 0.0180947 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 1.png
-  artifactKey: Guid(36869164c9126644f8bd0ee47ec1f529) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Up/Blue - Get-up - 1.png using Guid(36869164c9126644f8bd0ee47ec1f529) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34ddca1b0c0065acc815a8836f3f0411') in 0.0262356 seconds
+  Time since last request: 0.294465 seconds.
+  path: Assets/UI/LocalPNG/Shoot.png
+  artifactKey: Guid(e9a80439f3ebad84a84be72d7de058f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Shoot.png using Guid(e9a80439f3ebad84a84be72d7de058f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7bb8ba3d88c0f98a9d05234ccab312') in 0.0193397 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.555806 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 3.png
-  artifactKey: Guid(d0ef82689dde5e7439c4e5fe44872c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 3.png using Guid(d0ef82689dde5e7439c4e5fe44872c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06d96b1d9799081b5447ae68e7852e33') in 0.0521091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 1.png
-  artifactKey: Guid(4c14c4b17bf73b245a3556dd0f9d7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 1.png using Guid(4c14c4b17bf73b245a3556dd0f9d7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7f6e40e23106b483b4b81873bd3a95b') in 0.0568613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.839814 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 3.png
-  artifactKey: Guid(d0ef82689dde5e7439c4e5fe44872c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 3.png using Guid(d0ef82689dde5e7439c4e5fe44872c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5095cdf68ccf930ce356cb462689434b') in 0.0578867 seconds
+  Time since last request: 0.018576 seconds.
+  path: Assets/UI/LocalPNG/Slot(2)blue.png
+  artifactKey: Guid(74a0d145c6ec20b43a0c2b41c44c72c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Slot(2)blue.png using Guid(74a0d145c6ec20b43a0c2b41c44c72c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '413f2aac55f6c53d11734e97fc298216') in 0.0179324 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 4.png
-  artifactKey: Guid(70f8067c58b69814db925e43297215e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 4.png using Guid(70f8067c58b69814db925e43297215e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8440d1718ef0d0b87a137f59d1d7ea1') in 0.0581175 seconds
+  Time since last request: 0.016610 seconds.
+  path: Assets/UI/LocalPNG/Slot(orange).png
+  artifactKey: Guid(7d40a3983afb7fd4c9e62602dd72ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Slot(orange).png using Guid(7d40a3983afb7fd4c9e62602dd72ca5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd48072ffc2a9693d1141b25b73cc388') in 0.0165116 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 4.png
-  artifactKey: Guid(60fbadb2a4a418e43a5219d68ccb190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 4.png using Guid(60fbadb2a4a418e43a5219d68ccb190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e53e7e5342bbefb981167d6c08f93782') in 0.0495201 seconds
+  Time since last request: 0.249398 seconds.
+  path: Assets/UI/LocalPNG/Vector.png
+  artifactKey: Guid(ea2606575c611e14a9e6f2a1229b6fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/LocalPNG/Vector.png using Guid(ea2606575c611e14a9e6f2a1229b6fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc920f4555e253b1a0c909394f8bffbd') in 0.0147202 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.786894 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 3.png
-  artifactKey: Guid(f4125cddff0aab748a11d08e545c10a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Orange - get-down - 3.png using Guid(f4125cddff0aab748a11d08e545c10a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5128150e7a0fa5a9cb5cdb127b9209f') in 0.0239697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.484 seconds
+Domain Reload Profiling: 1000ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2116 unused Assets / (452.6 KB). Loaded Objects now: 2764.
+Memory consumption went from 95.4 MB to 95.0 MB.
+Total: 6.196000 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.212700 ms MarkObjects: 5.248900 ms  DeleteObjects: 0.486000 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 3.png
-  artifactKey: Guid(d0ef82689dde5e7439c4e5fe44872c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Getting Down/Blue - get-down - 3.png using Guid(d0ef82689dde5e7439c4e5fe44872c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa95403085f90430e2d7b4ecca74cd17') in 0.0362533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.906544 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 3.png
-  artifactKey: Guid(e40254a3ac4809f4d8cacdc697be6da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 3.png using Guid(e40254a3ac4809f4d8cacdc697be6da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6b8a3637d71497dd0bf03bbf256525') in 0.0835242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Orange - dash - 1.png
-  artifactKey: Guid(81aec4a3f45ef21418250fb1fda45621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Orange - dash - 1.png using Guid(81aec4a3f45ef21418250fb1fda45621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf3d7205902b2236f41e61d1227ff4f1') in 0.0723719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.823324 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 3.png
-  artifactKey: Guid(e40254a3ac4809f4d8cacdc697be6da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 3.png using Guid(e40254a3ac4809f4d8cacdc697be6da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd216bb68540c1c09f7f4b52fde3a151d') in 0.0565853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Orange - dash - 2.png
-  artifactKey: Guid(877998352fda5e84f9ec4be19fcb0d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Orange - dash - 2.png using Guid(877998352fda5e84f9ec4be19fcb0d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcda84da2db3caf12105a95859343ba2') in 0.0462405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Orange - dash - 3.png
-  artifactKey: Guid(a3d834533333a054c99eef524b351a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Orange - dash - 3.png using Guid(a3d834533333a054c99eef524b351a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b04c644b8b587b51c433f5d175a30d2f') in 0.0701382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.778808 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 4.png
-  artifactKey: Guid(5710edc5e4f866a41a3be5d544ebf23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 4.png using Guid(5710edc5e4f866a41a3be5d544ebf23c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1542dd28c068af8af11f4dbfdbb23671') in 0.0330404 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 2.png
-  artifactKey: Guid(32f4e50a0cc7d4e48910bc8870a95a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/UI/Player/Animation Frames/Dash and Tackle/Blue - dash - 2.png using Guid(32f4e50a0cc7d4e48910bc8870a95a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48c31979c93e6d1b2948f9d753d1c5f1') in 0.0383779 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0
